@@ -1,0 +1,109 @@
+body{
+  background-color: #e8e4df;
+  font-family: Helvetica;
+}
+.container{
+  display:grid;
+  grid-template-columns: auto;
+  grid-template-rows:repeat(4,auto);
+  font-family:Helvetica;
+}
+.header{
+  display: flex;
+  grid-row: 1;
+  background-color: #e8e4df;
+  padding: 10px;
+}
+.LogoPos{
+  align-items: start;
+  margin-left: 10px;
+}
+#search{
+  margin: auto;
+  height: 50px;
+  width: 50%;
+  border-radius: 50px;
+}
+.SearchButton{
+  margin-top: 80%;
+  margin-left: 5px;
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+}
+.loginbtn{
+  width: 20%;
+  height: 40%;
+  margin: 26px;
+  border: none;
+  background-color:#f19131;
+  color: white;
+}
+.loginbtn:hover{
+  background-color:lightgreen;
+  color: black;
+}
+.cart{
+  margin-top: 70%;
+  margin-right: 10px;
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+}
+.cta{
+  display: flex;
+  grid-row: 2;
+  background-color:#e8e4df;
+  border-top: solid black 1px;
+}
+.banner{
+  margin-top: 10px;
+  border: solid black 2px;
+  width: 100%;
+  height: 60px;
+}
+.content{
+  width: 100%;
+  height: 100%;
+}
+.main{
+  display: flex;
+  grid-row: 3;
+  flex-direction: column;
+  padding: 10px;
+}
+.catBtn{
+  cursor: pointer;
+}
+#title{
+  text-align: center;
+  border-bottom: black solid 2px;
+  padding: 7px;
+}
+.categories{
+  margin: auto;
+  flex-wrap: wrap;
+}
+.catTab{
+  border-collapse: collapse;
+  width: 100%;
+}
+.mainTD{
+  text-align: center;
+  padding: 30px;
+}
+.CatPic{
+  width: 300px;
+  height: 300px;
+  border: black solid 1px;
+}
+.footer{
+  display: flex;
+  grid-row: 4;
+  background-color: #dedbd7;
+  padding: 10px;
+}
+#copyright{
+  margin-left: auto;
+  margin-right: auto;
+}
